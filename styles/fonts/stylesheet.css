@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('ProximaNova-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+        url('PlayfairDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
