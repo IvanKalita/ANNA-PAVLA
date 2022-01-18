@@ -43,6 +43,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: #31323C;
+    min-width: min-content;
 
 }
 
