@@ -672,8 +672,8 @@ ul {
 }
 
 .product-card__input-real-radio {
-    width: 0;
-    height: 0;
+    width: 57px;
+    height: 35px;
     position: absolute;
     opacity: 0;
 }
@@ -687,7 +687,7 @@ ul {
     height: 35px;
     background-color: #F2E8E8;
    
-    margin-right: 5px;
+    
     font-size: 14px;
     text-align: center;
     padding-top: 9px;
