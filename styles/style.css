@@ -818,6 +818,10 @@ ul {
 
 }
 
+.order-registration__delivery-list:last-child {
+    margin-right: 0;
+}
+
 .order-registration__delivery-list-real-radio {
     width: 0;
     height: 0;
