@@ -688,10 +688,11 @@ ul {
     
     font-size: 14px;
     text-align: center;
-    padding: 9px 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 
 }
-
+ 
 .product-card__input-custom-radio::before {
     content: '';
 
