@@ -817,8 +817,19 @@ ul {
     margin-right: 30px;
 
 }
-
 .order-registration__delivery-list:last-child {
+    margin-right: 0;
+}
+
+.order-registration__delivery-input__radio {
+    cursor: pointer;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.form-input__radio:last-child {
     margin-right: 0;
 }
 
@@ -827,7 +838,6 @@ ul {
     height: 0;
     position: absolute;
     opacity: 0;
-
 }
 
 .order-registration__delivery-list-custom-radio {
@@ -864,7 +874,7 @@ ul {
 
  }
 
-.order-registration__delivery-list-custom-radio:checked+.order-registration__delivery-list-custom-radio::before {
+.order-registration__delivery-list-real-radio:checked+.order-registration__delivery-list-custom-radio::before {
     /* display:block; */
     transform: translate(-50%, -50%) scale(1);
 } 
