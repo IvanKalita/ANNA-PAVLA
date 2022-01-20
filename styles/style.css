@@ -652,73 +652,7 @@ ul {
     
 }
 
-.product-card__input-radio {
-    cursor: pointer;
-    font-family: "Proxima Nova";
-    font-weight: 400;
-    font-size: 14px;
-}
 
-
-
-.product-card__form-input-radio {
-    display: inline-block;
-    margin-right: 10px;
-
-}
-
-.product-card__form-input-radio:last-child {
-    margin-right: 0;
-}
-
-.product-card__input-real-radio {
-    width: 0;
-    height: 0;
-    position: absolute;
-    opacity: 0;
-}
-
-.product-card__input-custom-radio {
-
-    position: relative;
-
-    display: inline-block;
-    width: 57px;
-    height: 35px;
-    background-color: #F2E8E8;
-   
-    margin-right: 5px;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 9px;
-
-}
-
-.product-card__input-custom-radio::before {
-    content: '';
-
-    display: inline-block;
-    width: 57px;
-    height: 35px;
-    border: 1px solid #7A1E1E;
-    
-
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%) ;
-    transition: 0.2s ease-in;
-    display:none;
-
- }
-
-.product-card__input-real-radio:checked + .product-card__input-custom-radio::before {
-    display:block;
-  
-} 
 
 .product-card__size-text-link {
     margin-top: 0;
