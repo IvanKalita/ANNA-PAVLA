@@ -659,16 +659,14 @@ ul {
     font-size: 14px;
 }
 
-
+.product-card__form-input-radio:last-child {
+    margin-right: 0;
+}
 
 .product-card__form-input-radio {
     display: inline-block;
     margin-right: 10px;
 
-}
-
-.product-card__form-input-radio:last-child {
-    margin-right: 0;
 }
 
 .product-card__input-real-radio {
