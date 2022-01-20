@@ -813,31 +813,57 @@ ul {
 }
 
 .order-registration__delivery-list {
-    margin-right: 32px;
-    display: flex;
-    align-content: center;
+    display: inline-block;
+    margin-right: 30px;
 
 }
 
-.order-registration__delivery-list:last-child {
-    margin-right: 0;
+.order-registration__delivery-list-real-radio {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
 
 }
 
-.order-registration__delivery-list-button {
-    margin-right: 10px;
+.order-registration__delivery-list-custom-radio {
 
-}
+    position: relative;
 
-input[type='radio'] {
-
-    height: 15px;
+    display: inline-block;
     width: 15px;
-    cursor: pointer;
-    border-radius: 0;
+    height: 15px;
+    background-color: #FFF;
+    border: 1px solid #7A1E1E;
+    margin-right: 5px;
+    vertical-align: text-top;
+
+}
+
+.order-registration__delivery-list-custom-radio::before {
+    content: '';
+
+    display: inline-block;
+    width: 11px;
+    height: 11px;
     background-color: #7A1E1E;
 
-}
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in;
+    /* display:none; */
+
+ }
+
+.order-registration__delivery-list-custom-radio:checked+.order-registration__delivery-list-custom-radio::before {
+    /* display:block; */
+    transform: translate(-50%, -50%) scale(1);
+} 
 
 .order-registration__input {
     width: 585px;
