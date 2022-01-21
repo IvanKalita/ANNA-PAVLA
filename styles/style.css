@@ -1012,7 +1012,8 @@ ul {
 }
 
 .order-registration__btn {
-    padding: 19px 66px 19px 67px;
+    width: 318px;
+    height: 67px;
     font-family: "Proxima Nova";
     font-weight: 400;
     font-size: 24px;
