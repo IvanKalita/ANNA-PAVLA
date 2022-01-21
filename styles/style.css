@@ -1041,26 +1041,18 @@ ul {
     font-size: 24px;
 }
 
-
-
 .place-order__link {
+    display: block;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 67px;
+    padding-right: 66px;
     font-family: "Proxima Nova";
     font-weight: 400;
     font-size: 24px;
     color: #fff;
-
-
-
-}
-
-.place-order__link-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 318px;
-    height: 67px;
+    
     background: #7A1E1E;
-
     border: transparent;
 
 }
