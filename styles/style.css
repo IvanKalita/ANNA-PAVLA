@@ -878,9 +878,11 @@ ul {
     /* display:block; */
     transform: translate(-50%, -50%) scale(1);
 } 
-
+.order-registration_fieldset {
+    border:none;
+}
 .order-registration__input {
-    width: 585px;
+    width: 555px;
     height: 52px;
     outline: 1px solid #F2E8E8;
     border: transparent;
